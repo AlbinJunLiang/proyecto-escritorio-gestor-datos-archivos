@@ -9,15 +9,32 @@
 
 
 ### Interfaz gráfica de usuario
+
+###### Ventana de inicio
+<p align="center">
+  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/vistaInicio.png.jpg" width="600">
+</p>
+
+###### Seleccionando la carpeta que guarda los archivos
+<p align="center">
+  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/seleccionadoCarpeta.jpg" width="600">
+</p>
+
+
 ###### Agregando un registro al archivo
 <p align="center">
-  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/creandoArchivo.jpg">
+  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/creandoArchivo.jpg" width="600">
+</p>
+
+###### Vista cuando es creado el archivo
+<p align="center">
+  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/registro%20agregado.jpg" width="600">
 </p>
 
 
 ### Detalles de la arquitectura y tecnologias utilizadas
 
-Para el desarrollo de este programa se utilizó el lenguaje Java de la plataforma** Standard Edition**, específicamente **la versión 8.0 **en adelante. Para la vista o capa visual se utiliza la biblioteca Swing en la versión 8.0 en adelante.
+Para el desarrollo de este programa se utilizó el lenguaje Java de la plataforma **Standard Edition**, específicamente **la versión 8.0** en adelante. Para la vista o capa visual se utiliza la biblioteca Swing en la versión 8.0 en adelante.
 
 El diseño de la capa de persistencia está basada en el manejo de archivos utilizando la **librería IO** de Java. Durante la ejecución del programa, se crea una carpeta llamada 'rutaPersistencia' y dentro de ella se encuentra el archivo 'ArchivoDefecto.txt', que se utiliza para guardar la ruta de la carpeta seleccionada para guardar los archivos .txt. Una vez que se ha seleccionado la carpeta para guardar los archivos, se crearán automáticamente dos carpetas: 'Carpeta de ajuste tabla', que almacenará detalles visuales sobre cómo se representará la tabla en el programa, y 'Carpeta de campos tabla', que guardará los campos (atributos) que tendrá un registro del archivo.
 
@@ -33,14 +50,15 @@ El diseño del programa se intenta acercar a la arquitectura MVC, la cual se apl
 <p>
   Por el momento el programa solo se ha visto que funciona sin problemas en el sistema  operativo Windows de 8.0 y posteriores, ya en LINUX se intentara ponerlo a prueba en algun momento.
 </p>
+
   - Sistema operativos Windows (Preferiblemente versiones de 8 en adelante).
   - Tener instalado JRE o JDK de manera correcta.
   -  Para ejecutar el programa basta darle doble click al .JAR y no olvide que nunca se borrar alguna carpeta generarada durante la ejecucion al menos que sea necesario o de lo contrario tendra fallas en su funcionamiento.
 
 ### Guía breve para los usuarios:
-#####1-Abrir la carpeta principal
+##### 1-Abrir la carpeta principal
 - Es importante seleccionar la carpeta que guardara los archivos con datos y para hacer esto tiene que hacer click en el campo izquierdo de fondo blanco de la interfaz gráfica que dice **"Agregar nuevo +"** o algo similar.
-- Por ultimo, le aparecera un selector de archivo la cual el usuario seleccionara la carpeta, **debe ser una carpeta totalmente nueva **o que **no contenga ningun archivo**.
+- Por ultimo, le aparecera un selector de archivo la cual el usuario seleccionara la carpeta, **debe ser una carpeta totalmente nueva** o que **no contenga ningun archivo**.
 
 ##### 2-¿Como se crea un archivo para registrar datos?
 - Para crear un archivo primero debe haber hecho el primer paso de lo contrario no dejara crear el archivo, si ya lo haz hecho puede hacer click de nuevo en el campo del lado izquierdo, el mismo del paso 1 (Agregar nuevo +) y ahi aparecerá una ventana que solicitara el nombre del archivo, el número de columnas por registro y etc.
