@@ -11,7 +11,7 @@
 ### Interfaz gráfica de usuario
 ###### Agregando un registro al archivo
 <p align="center">
-  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/creandoArchivo.jpg" width="800">
+  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/creandoArchivo.jpg">
 </p>
 
 
