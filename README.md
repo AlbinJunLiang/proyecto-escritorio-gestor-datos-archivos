@@ -11,15 +11,12 @@
 ### Interfaz gráfica de usuario
 ###### Agregando un registro al archivo
 <p align="center">
-  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/creandoArchivo.jpg" width="200">
+  <img src="https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/blob/main/imagenes%20del%20programa/creandoArchivo.jpg" width="800">
 </p>
 
 
 ### Detalles de la arquitectura y tecnologias utilizadas
-<p align="center">
-  <img src="URL_de_la_imagen" alt="Descripción de la imagen">
-</p>
-<p>
+
 Para el desarrollo de este programa se utilizó el lenguaje Java de la plataforma** Standard Edition**, específicamente **la versión 8.0 **en adelante. Para la vista o capa visual se utiliza la biblioteca Swing en la versión 8.0 en adelante.
 
 El diseño de la capa de persistencia está basada en el manejo de archivos utilizando la **librería IO** de Java. Durante la ejecución del programa, se crea una carpeta llamada 'rutaPersistencia' y dentro de ella se encuentra el archivo 'ArchivoDefecto.txt', que se utiliza para guardar la ruta de la carpeta seleccionada para guardar los archivos .txt. Una vez que se ha seleccionado la carpeta para guardar los archivos, se crearán automáticamente dos carpetas: 'Carpeta de ajuste tabla', que almacenará detalles visuales sobre cómo se representará la tabla en el programa, y 'Carpeta de campos tabla', que guardará los campos (atributos) que tendrá un registro del archivo.
