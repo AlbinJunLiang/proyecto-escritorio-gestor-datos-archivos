@@ -1,18 +1,19 @@
 ## Programa de gestor de archivos .TXT (aplicacion escritorio Java)
 
-<p>
+
   Es un simple sistema de escritorio para gestionar datos en un archivo .txt,
  realiza tareas como para insertar, eliminar, modificar y consultar los datos
   registrados en el archivo. Tambien soporta la gestion en diferentes archivos. 
   
   **Se advierte que en el programa al ser datos almacenados en archivos planos, obviamente no tendra la misma eficiencia que una base de datos (SQL, noSQL y etc).**
-</p>
 
-<br>
 
 ### Interfaz gráfica de usuario
 ###### Agregando un registro al archivo
-![agregar](https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/assets/130929541/1d9b9834-c1c5-49ff-9b98-0cc4bdad0a38)
+<p align="center">
+  <img src="![agregar](https://github.com/AlbinJunLiang/proyecto-escritorio-gestor-datos-archivos/assets/130929541/1d9b9834-c1c5-49ff-9b98-0cc4bdad0a38)" alt="Imagen agregando registro" width="200">
+</p>
+
 
 ### Detalles de la arquitectura y tecnologias utilizadas
 <p align="center">
@@ -44,18 +45,18 @@ El diseño del programa se intenta acercar a la arquitectura MVC, la cual se apl
 - Es importante seleccionar la carpeta que guardara los archivos con datos y para hacer esto tiene que hacer click en el campo izquierdo de fondo blanco de la interfaz gráfica que dice **"Agregar nuevo +"** o algo similar.
 - Por ultimo, le aparecera un selector de archivo la cual el usuario seleccionara la carpeta, **debe ser una carpeta totalmente nueva **o que **no contenga ningun archivo**.
 
-#####2-¿Como se crea un archivo para registrar datos?
+##### 2-¿Como se crea un archivo para registrar datos?
 - Para crear un archivo primero debe haber hecho el primer paso de lo contrario no dejara crear el archivo, si ya lo haz hecho puede hacer click de nuevo en el campo del lado izquierdo, el mismo del paso 1 (Agregar nuevo +) y ahi aparecerá una ventana que solicitara el nombre del archivo, el número de columnas por registro y etc.
 - Luego se da click en el boton generar campos, esto generara un formulario que sera donde se va poner el nombre de cada columna, se recomienda que no deje campos vacios.
 - Continuar con dar click en el boton crear tabla.
 
-#####3-¿Como hago las funciones de consultar, eliminar, agregar y modificar?
+##### 3-¿Como hago las funciones de consultar, eliminar, agregar y modificar?
 - Primero que nada, es necesario seleccionar la tabla y si ya lo tiene hecho nada más se ubica a la parte inferior del programa, ahi estará los botones de eliminar, consultar, modificar,agregar; el cual aparecera una nueva ventana.
 - Para agregar ingrese primero el identificador (ID) y llenar los campos para finalmente hacer click en el botón de agregar.
 - Para consultar y eliminar solo ingrese el ID.
 - Para actualizar o modificar tiene que ingresar el ID y en la parte inferior de la ventana flotante se mostrara los campos con los datos que pueden ser editados por el usuario.
 
-#####Otras funcionalidades del programa:
+##### Otras funcionalidades del programa:
 - Importar CSV (Archivo separado por comas), se podrá importar una tabla a traves de un .csv y esto se hace en desde el menu del programa especificamente en la parte de **File**.
 - Exportar un CSV, puedes seleccionar una tabla y guardarlo fuera del programa en un CSV y esta ubicado en la misma parte de la opcion de importar.
 - Ver con mas detalles los datos de las columnas de un registro, esta ubicado en el menú y en el item que dice **Mas** , ahi le puedes dar click y saldra un ventana, para ir visualizando otros campos puede presionar el Slider e ir modificando cada campo si el usuario lo requiere. Esta funcion esta por si hay un campo con un texto muy largo.
@@ -65,7 +66,7 @@ El diseño del programa se intenta acercar a la arquitectura MVC, la cual se apl
 
 El objetivo principal de este programa es combatir el aburrimiento (En realidad para aprender a usar GitHub) y, al mismo tiempo, crear una aplicación de escritorio utilizando Java. El segundo objetivo es desarrollar una aplicación que permita guardar datos de manera dinámica, es decir, crear un sistema que permita generar archivos con una cantidad variable de columnas sin necesidad de modificar el código. Esto le daría al usuario la flexibilidad de asignar el número de campos que va a tener la tabla de datos según sus necesidades.
 
-#####Futuras funcionalidades que se va agregar (Posiblemente): 
+##### Futuras funcionalidades que se va agregar (Posiblemente): 
 - Filtrado de un consultas por medio de un palabra, prefijo y etc en las  jtable (tablas).
 - Mejora en la capa de presentacion, mejora visuales en la GUI (color, fuentes y etc).
 - opcion de cambiar el color de las tablas (parte presentacion).
